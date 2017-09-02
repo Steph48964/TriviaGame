@@ -46,7 +46,7 @@ var questions = [
             choices: [
                 "Icarus at the Edge of Time",
                 "The Relevance of Time",
-                "In Due Time",
+                "In Due Time"
             ],
             answer: 0
     },
@@ -55,7 +55,7 @@ var questions = [
             choices: [
                 "The Elegant Universe",
                 "The Hidden Reality",
-                "Stringing Out",
+                "Stringing Out"
             ],
             answer: 2
     }
