@@ -142,10 +142,5 @@ $(document).ready(function() {
         clearInterval(countdown);
         end();
     }); 
-    
-    $("#resetButton").click(function(){
-    	$("#start").show();
-        $("#end").hide();
-        $("#play").hide();
-    });
+   
 });
