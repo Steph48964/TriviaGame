@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Trivia Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    </head>
+
+    <body>
+        
+        <div id="start">
+            <h1>Trivia Game</h1>
+            <button id="startButton">Start!</button>
+        </div>
+            
+        <div id="play">
+            <h1>Trivia Game</h1>
+            <p id="timer">Time Remaining: <span id="timerSeconds"></span>
+            </p>
+            <div class="play-game">
+            </div>  
+            <button id="doneButton">Done!</button>
+        </div>
+
+        <div id="end">
+            <h1>Trivia Game</h1>
+                <div id="results">
+                	<p id="allDone">THANKS FOR PLAYING!</p>
+                    <p id="Correct">Correct:</p>
+                    <p id="Incorrect">Incorrect:</p>
+                    <p id="Unanswered">Unanswered:</p>
+                </div>
+        </div> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js">document.querySelector("#game").innerHTML=html;</script>
+
+    </body>
+
+</html>

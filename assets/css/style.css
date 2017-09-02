@@ -1,0 +1,112 @@
+body {
+	background-image: url(../images/space.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	margin: 100px;
+	font-size: 75px;
+	color: #D900D9;
+}
+
+#start {
+	width: 800px;
+	height: 500px;
+	border: 2px solid grey;
+	margin: 0 auto; 
+	margin-top: 100px;
+	margin-bottom: 50px;
+	background-color: white;
+}
+	
+#startButton {
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 50px;
+	width: 200px;
+	font-size: 25px;
+	color: #D900D9;
+}
+
+#play {
+	width: 800px;
+	height: 1250px;
+	border: 2px solid grey;
+	margin: 0 auto; 
+	margin-top: 100px;
+	margin-bottom: 50px;
+	background-color: white;
+}
+
+#timer {
+	text-align: center;
+	margin: 10px;
+	font-size: 30px;
+	color: #D900D9;
+	padding-bottom: 50px;
+}
+
+.play-game {
+	color: indigo;
+	display: inline;
+	text-align: center;
+	font-size: 15px;
+	line-height: 50px;
+}
+
+#doneButton {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 50px;
+	width: 200px;
+	font-size: 25px;
+	color: #D900D9;
+}
+
+#end {
+	width: 800px;
+	height: 500px;
+	border: 2px solid grey;
+	margin: 0 auto; 
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: white;
+}
+
+#allDone {
+	text-align: center;
+	margin: 10px;
+	font-size: 30px;
+	color: navy;
+	padding-bottom: 30px;
+	line-height: 1px;
+}
+
+#results {
+	text-align: center;
+	font-size: 20px;
+	color: #D900D9;
+	line-height: 30px;
+}
+
+.choices input {
+	margin-left: 20px;
+    margin-right: 5px;
+}
+
+.choices {
+	color: #1e90ff;
+	font-size: 17px;
+}
+
+.questionText {
+    font-weight: bold;
+    font-size: 20px;
+    color: navy;
+}
